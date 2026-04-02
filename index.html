@@ -9,7 +9,7 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Astro v5.13.2" />
-    <title>Fisei</title>
+    <title>Fisei - Inicio</title>
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/carousel/"
@@ -91,7 +91,6 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
-      /* Estilo para asegurar que las imágenes de los círculos sean redondas y se ajusten */
       .rounded-circle-img {
         width: 140px;
         height: 140px;
@@ -199,7 +198,7 @@
     <header data-bs-theme="dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">fisei</a>
+          <a class="navbar-brand" href="index.html">fisei</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -214,17 +213,19 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
             </ul>
             <form class="d-flex" role="buscar">
               <input
                 class="form-control me-2"
-                type="Buscar"
+                type="search"
                 placeholder="Buscar"
                 aria-label="Buscar"
               />
@@ -278,13 +279,12 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
+                <h1>Bienvenidos a Fisei</h1>
                 <p class="opacity-75">
-                  Some representative placeholder content for the first slide of
-                  the carousel.
+                  Tu centro de aprendizaje en tecnología, administración de sistemas y bases de datos.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+                  <a class="btn btn-lg btn-primary" href="servicios.html">Conoce nuestros servicios</a>
                 </p>
               </div>
             </div>
@@ -306,12 +306,11 @@
             </svg>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
+                <h1>Domina la tecnología</h1>
                 <p>
-                  Some representative placeholder content for the second slide
-                  of the carousel.
+                  Cursos y recursos actualizados para que estés a la vanguardia.
                 </p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="servicios.html">Explorar</a></p>
               </div>
             </div>
           </div>
@@ -332,13 +331,12 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
+                <h1>Impulsa tu carrera</h1>
                 <p>
-                  Some representative placeholder content for the third slide of
-                  this carousel.
+                  Conviértete en un experto en manejo de sistemas, librerías y bases de datos.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                  <a class="btn btn-lg btn-primary" href="servicios.html">Ver más</a>
                 </p>
               </div>
             </div>
@@ -363,14 +361,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- Marketing messaging and featurettes
-  ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
+
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4 text-center">
-            <!-- Imagen para Manejo y Configuración -->
             <img 
               src="imagenes/Manejo.jpeg" 
               alt="Manejo y Configuración" 
@@ -385,12 +379,10 @@
               y optimización de recursos.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">Ver detalles &raquo;</a>
+              <a class="btn btn-secondary" href="servicios.html#manejo">Ver detalles &raquo;</a>
             </p>
           </div>
-          <!-- /.col-lg-4 -->
           <div class="col-lg-4 text-center">
-            <!-- Imagen para Librería -->
             <img 
               src="imagenes/libre.jpeg" 
               alt="Librería" 
@@ -405,12 +397,10 @@
               ¡Potencia tus proyectos con las mejores herramientas!
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">Ver detalles &raquo;</a>
+              <a class="btn btn-secondary" href="servicios.html#libreria">Ver detalles &raquo;</a>
             </p>
           </div>
-          <!-- /.col-lg-4 -->
           <div class="col-lg-4 text-center">
-            <!-- Imagen para Base de Datos -->
             <img 
               src="imagenes/BD.jpeg" 
               alt="Base de Datos" 
@@ -425,13 +415,11 @@
               asegurando integridad, escalabilidad y rendimiento.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">Ver detalles &raquo;</a>
+              <a class="btn btn-secondary" href="servicios.html#basedatos">Ver detalles &raquo;</a>
             </p>
           </div>
-          <!-- /.col-lg-4 -->
         </div>
-        <!-- /.row -->
-        <!-- START THE FEATURETTES -->
+
         <hr class="featurette-divider" />
         <div class="row featurette">
           <div class="col-md-7">
@@ -446,25 +434,7 @@
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              aria-label="Placeholder: 500x500"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              height="500"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-              width="500"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <img src="imagenes/Manejo.jpeg" class="img-fluid rounded" alt="Manejo y Configuración" style="width: 100%; height: auto; max-height: 500px; object-fit: cover;">
           </div>
         </div>
         <hr class="featurette-divider" />
@@ -481,25 +451,7 @@
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg
-              aria-label="Placeholder: 500x500"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              height="500"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-              width="500"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <img src="imagenes/libre.jpeg" class="img-fluid rounded" alt="Librería" style="width: 100%; height: auto; max-height: 500px; object-fit: cover;">
           </div>
         </div>
         <hr class="featurette-divider" />
@@ -516,36 +468,16 @@
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              aria-label="Placeholder: 500x500"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              height="500"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-              width="500"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <img src="imagenes/BD.jpeg" class="img-fluid rounded" alt="Base de Datos" style="width: 100%; height: auto; max-height: 500px; object-fit: cover;">
           </div>
         </div>
         <hr class="featurette-divider" />
-        <!-- /END THE FEATURETTES -->
       </div>
-      <!-- /.container -->
-      <!-- FOOTER -->
+
       <footer class="container">
         <p class="float-end"><a href="#">Volver arriba</a></p>
         <p>
-          &copy; 2017–2025 Compañía, Inc. &middot;
+          &copy; 2017–2025 Fisei, Inc. &middot;
           <a href="#">Privacidad</a> &middot; <a href="#">Contactos</a>
         </p>
       </footer>
